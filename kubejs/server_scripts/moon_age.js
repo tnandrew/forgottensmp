@@ -4,7 +4,6 @@ Final recipes for the Moon age.
 
 ServerEvents.recipes(event => {
   // Grains of Infinity on Moon bedrock.
-  event.remove({ output: 'enderio:grains_of_infinity' })
   event.remove({ id: 'enderio:fire_crafting/infinity' })
   event.custom({
     type: 'enderio:fire_crafting',
@@ -14,24 +13,25 @@ ServerEvents.recipes(event => {
     dimensions: [
       'ad_astra:moon'
     ],
-    loot_table: 'kubejs:fire_crafting/moon_infinity',
+    loot_table: "enderio:fire_crafting/infinity",
     max_item_drops: 1
   }).id('kubejs:moon_age/enderio/grains_of_infinity')
+  
 })
 
-BlockEvents.rightClicked(event => {
-  const player = event.player
-  if (!player || !player.isCrouching()) return
-  if (player.offHandItem.id !== 'minecraft:flint') return
-  if (
-    player.mainHandItem.id !== 'minecraft:deepslate' &&
-    player.mainHandItem.id !== 'minecraft:cobbled_deepslate'
-  ) return
-  if (
-    event.block.id !== 'minecraft:grindstone' &&
-    event.block.id !== 'minecraft:crying_obsidian' &&
-    !event.block.hasTag('forge:obsidian')
-  ) return
+BlockEvents.rightClicked( e => {
+  // Stops the alternate grains of infinity recipe
+  const block = e.getBlock().getId()
+  const player = e.getPlayer()
+  const mainHand = player.getMainHandItem().getId()
+  const offHand = player.getOffHandItem().getId()
 
-  event.cancel()
+  if (
+    offHand == 'minecraft:flint' &&
+    (mainHand == 'minecraft:deepslate' || mainHand == 'minecraft:cobbled_deepslate') &&
+    player.isCrouching() && 
+    (block == 'minecraft:obsidian' || block == 'minecraft:crying_obsidian' || block == 'minecraft:grindstone')
+  ) {
+    e.cancel()
+  }
 })
