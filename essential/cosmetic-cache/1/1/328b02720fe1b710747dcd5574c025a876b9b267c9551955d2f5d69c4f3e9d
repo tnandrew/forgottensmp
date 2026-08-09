@@ -1,0 +1,1 @@
+{"sound_definitions":{"em_ice_pop_lick_pre":{"category":"hostile","max_distance":25.0,"sounds":[{"name":"sounds/em_ice_pop_lick_pre","interruptible":true}]},"em_ice_pop_lick_loop":{"category":"hostile","max_distance":25.0,"sounds":[{"name":"sounds/em_ice_pop_lick_loop","interruptible":true}]}}}

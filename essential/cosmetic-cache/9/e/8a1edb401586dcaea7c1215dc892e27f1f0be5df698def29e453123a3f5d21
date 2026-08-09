@@ -1,0 +1,1 @@
+{"sound_definitions":{"em_kick_ups_pre":{"category":"hostile","max_distance":25.0,"sounds":[{"name":"sounds/em_kick_ups_pre","interruptible":true}]},"em_kick_ups_loop":{"category":"hostile","max_distance":25.0,"sounds":[{"name":"sounds/em_kick_ups_loop","interruptible":true}]}}}

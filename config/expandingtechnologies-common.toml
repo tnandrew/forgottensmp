@@ -1,0 +1,7 @@
+#.
+#Whether '@s' should be substituted for the player's name when ordering a package at a shopkeeper
+allowSelfAddress = true
+#.
+#Whether the position of doors should be determined relative to the actual center of the contraption
+betterContraptionDoorPosition = true
+

@@ -1,0 +1,8 @@
+type = user_variables
+
+variable {
+  name = 258ac7b3-fa0c-4251-8079-814bbaa55986-1747777685809
+  value = 1
+  reset_on_launch = false
+}
+

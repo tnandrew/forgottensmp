@@ -1,0 +1,1 @@
+{"sound_definitions":{"coin_flip_sound":{"category":"hostile","max_distance":25.0,"sounds":[{"name":"sounds/coin_flip","interruptible":true}]}}}

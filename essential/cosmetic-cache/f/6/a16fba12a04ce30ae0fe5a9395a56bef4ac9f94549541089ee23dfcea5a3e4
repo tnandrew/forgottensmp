@@ -1,0 +1,1 @@
+[{"type":"POSITION_RANGE","id":"UNUSED","enabled":true,"data":{"y_min":-2.0,"y_max":2.0}},{"type":"EXTERNAL_HIDDEN_BONE","id":"MASC_FUR_HEAD","enabled":true,"data":{"snout":true}},{"type":"EXTERNAL_HIDDEN_BONE","id":"FEM_FUR_HEAD","enabled":true,"data":{"snout":true}}]

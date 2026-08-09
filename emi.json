@@ -1,0 +1,27 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:enderio:grains_of_infinity",
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_hepatizon",
+      "amount": 10
+    },
+    "item:tconstruct:hepatizon_nugget",
+    "item:create:empty_blaze_burner",
+    "item:create:blaze_burner",
+    "item:create:blaze_cake",
+    "item:spartanweaponry:blaze_head",
+    "item:tconstruct:blaze_head",
+    "item:create:andesite_alloy",
+    "item:displaydelight:mnd_plate_of_stuffed_hoglin_ham"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

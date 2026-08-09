@@ -1,0 +1,18 @@
+{
+  "moneyCommand": "sdmshop add #player# #amount#",
+  "allowDecimals": true,
+  "globalMinPrice": 0.001,
+  "globalMaxPrice": 1000000.0,
+  "syncIntervalSeconds": 120,
+  "instantSyncOnSaturation": true,
+  "categoriesBeforeReset": 15,
+  "hoursBetweenReset": 72,
+  "erosionRate": 0.98,
+  "taxMultiplier": 0.8,
+  "lastRebalanceTime": 1774812149630,
+  "showTooltip": true,
+  "limitToIP": false,
+  "targetIP": "play.monserveur.fr",
+  "priceDropPerSale": 0.001,
+  "priceRisePerSale": 1.0E-6
+}

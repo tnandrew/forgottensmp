@@ -1,0 +1,28 @@
+{
+	// The amount of time in seconds a player should be in combat
+	combatTime: 30,
+	// Weather a player should be put in combat from just other players or all damage
+	allDamage: false,
+	// Weather a player should be put in combat from mobs
+	mobDamage: false,
+	// Weather a player should be able to use their elytra while in combat, this will not make them drop from the sky it simply restricts starting elytra flight
+	disableElytra: false,
+	// Weather a player should be able to use ender pearls while in combat
+	disablePearl: false,
+	// The death message that shows when a player disconnects while in combat, note that not having a space at the beginning will attach the message to the players name
+	deathMessage: " has died of cowardice",
+	// Weather a player should get a popup when they enter combat or when trying to run blocked commands
+	combatNotice: true,
+	// The message that shows when a player is in combat, adding {timeLeft} will display how many seconds until combat is over
+	inCombat: "You are in combat do not leave! {timeLeft} seconds left",
+	// The message that shows when a player exits combat
+	outCombat: "You are no longer in combat",
+	// This is a list of commands to be blocked while in combat, do not include the slash and use commas to separate them, leave empty to disable, example "home,spawn,rtp"
+	blockedCommands: "",
+	// This is the message displayed in chat when a player attempts to use a blocked command
+	blockedCommandMessage: "You are in combat and cannot execute this command",
+	// This determines if disconnecting while tagged kills the player
+	disconnectKill: true,
+	// This is a command to be run when a tagged player disconnects, use {player} to autofill their name, leave blank to disable, example "warn {player} combatlogging"
+	disconnectCommand: ""
+}

@@ -1,0 +1,1 @@
+{"jarName":"combatlog-forge-2.6+1.20.1.jar","modId":"combatlog","version":"2.6","mixinConfigs":["combatlog-fabric.mixins.json","combatlog-forge.mixins.json","combatlog-common.mixins.json","combatlog-neoforge.mixins.json"],"jarJarMods":[{"jarName":"json-0.2.1.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

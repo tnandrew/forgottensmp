@@ -1,0 +1,17 @@
+{
+	id: "647a168e-053b-4e48-a0f9-5aa6c7bb7a14"
+	type: "player"
+	player_name: "Shadow1x"
+	ranks: {
+		647a168e-053b-4e48-a0f9-5aa6c7bb7a14: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Shadow1x"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59C4"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

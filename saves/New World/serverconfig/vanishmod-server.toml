@@ -1,0 +1,42 @@
+# --- Vanishmod Config File --- 
+#Should vanished players be physically hidden from the world? This includes sound and particle suppression
+hidePlayersFromWorld = true
+#Should vanished players be hidden from player lists such as the /list command and the list in the Multiplayer screen?
+hidePlayersFromPlayerLists = true
+#Should vanished players not be targetable by other players via command selectors (so players that cannot see vanished players cannot target them with e.g. /msg or /give)?
+disableCommandTargeting = true
+#Should chat and /teammsg messages from vanished players be hidden for unvanished players?
+hideChatMessages = true
+#When unvanished players receive a message from a vanished player (e.g. a chat or /msg message), should the name of the player that sent the message be replaced with "vanished" (in gray color)?
+hidePlayerNameInChat = false
+#Should players see a fake join/leave message in their chat when another player (un-)vanishes?
+sendFakeJoinLeaveMessages = true
+#Should there be a (potential) fix for other mods uncovering the presence of vanished players? This may severely increase CPU usage and is thus not recommended
+fixPlayerDetectionModCompatibility = false
+#Should this mod unconditionally and strictly remove (mostly) all references of names of vanished players by system messages added by mods? This is experimental, disable the config if too many modded messages get removed. Vanilla messages mentioning vanished players, such as death and advancement messages, will be removed regardless of this config's state.
+removeModdedSystemMessageReferences = true
+#Should vanished players be able to see each other?
+vanishedPlayersSeeEachOther = false
+#Should players be able to see vanished players in the same vanilla team, if the "seeFriendlyInvisibles" option is enabled for that team?
+seeVanishedTeamPlayers = false
+#Should this mod try to detect and suppress sounds that are indirectly caused by vanished players (e.g. pressing a button or hitting an entity)? This detection might accidentally suppress a few sounds unrelated to vanished players, disable this detection if too many sound bugs occur
+indirectSoundSuppression = true
+#Should this mod try to detect and suppress particles that are indirectly caused by vanished players (e.g. eating or block breaking particles)? This detection might accidentally suppress particles unrelated to vanished players, disable this detection if too many visual bugs occur
+indirectParticleSuppression = true
+#Should the "Hidden Players" list from mc2discord be constantly synched with a player's vanished status? (This might lead to worse performance)
+forceSyncHiddenList = false
+#What op permission level should be the requirement for being able to execute /vanish? (A value of 2 or lower allows command blocks to execute /vanish)
+#Range: 0 ~ 4
+vanishCommandPermissionLevel = 2
+#What op permission level should be the requirement for being able to see vanished players, no matter if the player with that permission level is vanished or not? A value of -1 disables this feature.
+#Range: -1 ~ 4
+seeVanishedPermissionLevel = -1
+#What message should a player receive when they vanish? (%s will get replaced with the name of the vanishing player)
+onVanishMessage = "%s vanished"
+#What message should a player receive when they unvanish? (%s will get replaced with the name of the unvanishing player)
+onUnvanishMessage = "%s unvanished"
+#What message should a player receive if they query the vanished status of a vanished player? (%s will get replaced with the name of the player that the status is queried of)
+onVanishQuery = "%s is currently vanished."
+#What message should a player receive if they query the vanished status of a visible player? (%s will get replaced with the name of the player that the status is queried of)
+onUnvanishQuery = "%s is currently not vanished."
+

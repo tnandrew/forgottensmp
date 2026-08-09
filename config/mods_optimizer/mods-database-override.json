@@ -1,0 +1,12 @@
+{
+  "description": "Override entries from mods-database.json. This file is never modified automatically.",
+  "server": [
+    "server-override-mod-id"
+  ],
+  "client": [
+    "client-override-mod-id"
+  ],
+  "both": [
+    "both-override-mod-id"
+  ]
+}

@@ -1,0 +1,1 @@
+{"sound_definitions":{"em_bookworm_loop":{"category":"hostile","max_distance":25.0,"sounds":[{"name":"sounds/em_bookworm_loop","interruptible":true}]},"em_bookworm_start":{"category":"hostile","max_distance":25.0,"sounds":[{"name":"sounds/em_bookworm_start","interruptible":true}]}}}

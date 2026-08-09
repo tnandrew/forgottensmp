@@ -1,0 +1,1 @@
+{"sound_definitions":{"em_jumpscare":{"category":"hostile","max_distance":18.0,"sounds":[{"name":"sounds/em_jumpscare1","interruptible":true},{"name":"sounds/em_jumpscare2","interruptible":true},{"name":"sounds/em_jumpscare3","interruptible":true},{"name":"sounds/em_jumpscare4","interruptible":true},{"name":"sounds/em_jumpscare5","interruptible":true}]}}}

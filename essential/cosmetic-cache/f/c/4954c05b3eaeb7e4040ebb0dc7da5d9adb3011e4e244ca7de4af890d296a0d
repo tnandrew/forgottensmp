@@ -1,0 +1,1 @@
+{"sound_definitions":{"em_cat_offering_pre":{"category":"hostile","max_distance":25.0,"sounds":[{"name":"sounds/em_cat_offering_pre","interruptible":true}]},"em_cat_offering_loop":{"category":"hostile","max_distance":25.0,"sounds":[{"name":"sounds/em_cat_offering_loop1","interruptible":true},{"name":"sounds/em_cat_offering_loop2","interruptible":true}]}}}

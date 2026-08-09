@@ -1,0 +1,12 @@
+type = slideshow
+
+slideshow-meta {
+   name = cool_slideshow
+   width = 2560
+   height = 1440
+   x = 0
+   y = 0
+   duration = 10.0
+   fadespeed = 3.0
+   randomize = true
+}

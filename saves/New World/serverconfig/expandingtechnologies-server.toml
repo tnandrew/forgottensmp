@@ -1,0 +1,12 @@
+
+#.
+#Fine tune the kinetic stats of individual components
+[stressValues]
+
+	#.
+	#.
+	#[in Stress Units]
+	#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+	[stressValues.impact]
+		item_vacuum = 4.0
+

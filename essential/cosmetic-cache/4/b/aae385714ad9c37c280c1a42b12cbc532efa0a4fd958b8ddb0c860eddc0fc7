@@ -1,0 +1,1 @@
+{"format_version":"1.12.0","minecraft:geometry":[{"description":{"identifier":"geometry.firework_particles","texture_width":36,"texture_height":36,"visible_bounds_width":3.0,"visible_bounds_height":4.5,"visible_bounds_offset":[0.0,1.75,0.0]},"bones":[{"name":"root"},{"name":"particle_source","parent":"root","pivot":[0.0,28.0,0.0],"locators":{"particle_source":[0.0,28.0,0.0]}}]}]}
