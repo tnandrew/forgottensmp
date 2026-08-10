@@ -3,8 +3,8 @@ Recipes removed here belong to mods that are locked behind later ages.
 Add replacement recipes in the relevant age file when that age is ready.
 */
 ServerEvents.recipes(event => {
-  // Immersive Engineering
-  const immersiveEngineering = [
+  // Immersive Engineering was removed
+  /*const immersiveEngineering = [
     'immersiveengineering:alloybrick',
     'immersiveengineering:blastbrick',
     'immersiveengineering:cokebrick',
@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
 
   immersiveEngineering.forEach(item => {
     event.remove({ output: item })
-  })
+  })*/
 
   // TFMG
   const tfmg = [

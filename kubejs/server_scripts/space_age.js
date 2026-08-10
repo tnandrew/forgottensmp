@@ -14,14 +14,7 @@ ServerEvents.recipes( e => {
             "id": output
             }
         })
-        e.recipes.create.pressing(output, input)
-        e.custom({
-            "type":"immersiveengineering:metal_press",
-            "energy":2400,
-            "input":{"item":input},
-            "mold":"immersiveengineering:mold_plate",
-            "result":{"item":output}
-        })
+
     }
 
     e.shaped('thermal:machine_frame',
@@ -184,14 +177,9 @@ ServerEvents.recipes( e => {
     e.replaceInput({output:'thermal:machine_furnace'}, 'minecraft:bricks', 'tfmg:fireproof_bricks')
     e.replaceInput({output:'thermal:machine_crystallizer'}, 'thermal:signalum_plate', 'thermal:redstone_servo')
 
-    e.custom({
-        "type":"immersiveengineering:arc_furnace",
-        "additives":[{"tag":"forge:ingots/nickel"}],
-        "energy":51200,
-        "input":{"base_ingredient":{"tag":"forge:ingots/steel"},"count":2},
-        "results":[{"base_ingredient":{"tag":"forge:ingots/invar"},"count":3}],
-        "time":100
-    })
+    // 2 steel dust + 1 nickel dust = 3 invar dust
+    e.shapeless('thermal:invar_dust', ['#forge:dusts/nickel', '#forge:dusts/steel', '#forge:dusts/steel'])
+
     e.custom({
         "type": "tconstruct:casting_basin",
         "cooling_time": 160,
@@ -216,62 +204,7 @@ ServerEvents.recipes( e => {
         },
         "temperature": 1500
     })
-    /* commented due to allowing skips bcs rocket fuel
-    e.custom({
-        "type": "tconstruct:alloy",
-        "inputs": [{
-            "amount": 270,
-            "tag": "forge:molten_tin"
-        },{
-            "amount": 90,
-            "tag": "forge:molten_silver"
-        },{
-            "amount": 500,
-            "fluid": "thermal:glowstone"
-        }],
-        "result": {
-        "amount": 360,
-        "tag": "forge:molten_lumium"
-        },
-        "temperature": 2500
-    })
-    e.custom({
-        "type": "tconstruct:alloy",
-        "inputs": [{
-            "amount": 270,
-            "tag": "forge:molten_copper"
-        },{
-            "amount": 90,
-            "tag": "forge:molten_silver"
-        },{
-            "amount": 400,
-            "fluid": "thermal:redstone"
-        }],
-        "result": {
-        "amount": 360,
-        "tag": "forge:molten_signalum"
-        },
-        "temperature": 2500
-    })
-    e.custom({
-        "type": "tconstruct:alloy",
-        "inputs": [{
-            "amount": 270,
-            "tag": "forge:molten_lead"
-        },{
-            "amount": 100,
-            "tag": "tconstruct:molten_diamond"
-        },{
-            "amount": 500,
-            "fluid": "thermal:ender"
-        }],
-        "result": {
-        "amount": 180,
-        "tag": "forge:molten_enderium"
-        },
-        "temperature": 2500
-    })
-    */
+    
     e.custom({
         "type": "thermal:smelter",
         "ingredients": [
@@ -418,4 +351,73 @@ ServerEvents.recipes( e => {
         ]
     })
     sheetPressing('thermal:cured_rubber', 'tfmg:rubber_sheet')
+
+    /* Immersive Engineering was Removed
+    e.recipes.create.pressing(output, input)
+    e.custom({
+        "type":"immersiveengineering:metal_press",
+        "energy":2400,
+        "input":{"item":input},
+        "mold":"immersiveengineering:mold_plate",
+        "result":{"item":output}
+    })
+    */
+
+    
+   /* commented due to allowing skips bcs rocket fuel
+    e.custom({
+        "type": "tconstruct:alloy",
+        "inputs": [{
+            "amount": 270,
+            "tag": "forge:molten_tin"
+        },{
+            "amount": 90,
+            "tag": "forge:molten_silver"
+        },{
+            "amount": 500,
+            "fluid": "thermal:glowstone"
+        }],
+        "result": {
+        "amount": 360,
+        "tag": "forge:molten_lumium"
+        },
+        "temperature": 2500
+    })
+    e.custom({
+        "type": "tconstruct:alloy",
+        "inputs": [{
+            "amount": 270,
+            "tag": "forge:molten_copper"
+        },{
+            "amount": 90,
+            "tag": "forge:molten_silver"
+        },{
+            "amount": 400,
+            "fluid": "thermal:redstone"
+        }],
+        "result": {
+        "amount": 360,
+        "tag": "forge:molten_signalum"
+        },
+        "temperature": 2500
+    })
+    e.custom({
+        "type": "tconstruct:alloy",
+        "inputs": [{
+            "amount": 270,
+            "tag": "forge:molten_lead"
+        },{
+            "amount": 100,
+            "tag": "tconstruct:molten_diamond"
+        },{
+            "amount": 500,
+            "fluid": "thermal:ender"
+        }],
+        "result": {
+        "amount": 180,
+        "tag": "forge:molten_enderium"
+        },
+        "temperature": 2500
+    })
+    */
 })
