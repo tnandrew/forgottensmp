@@ -1,0 +1,6 @@
+*.lock
+
+/saves/
+/screenshots/
+/XaeroWaypoints_BACKUP240807/
+/xaero/

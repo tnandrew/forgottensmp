@@ -1,140 +1,165 @@
-[03:32:26] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[03:32:26] [INIT] Loaded plugins:
-[03:32:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[03:32:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[03:32:26] [INIT] - net.zhaiji.kubejscurios.kubejs.KubeJSCuriosPlugin
-[03:32:26] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
-[03:32:26] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[03:32:26] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[03:32:26] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[03:32:26] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
-[03:32:26] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[03:32:26] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[03:32:26] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[03:32:26] [INIT] - pie.ilikepiefoo.AdditionsPlugin
-[03:32:26] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
-[03:32:26] [INIT] - dev.bluephs.dgjs.DGJSPlugin
-[03:32:26] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[03:32:26] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[03:32:26] [INIT] - com.probejs.ProbeJSPlugin
-[03:32:26] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[03:32:26] [INIT] - dev.mayaqq.createestrogen.compat.kubejs.CreateEstrogenKubeJSPlugin
-[03:32:26] [INFO] Loaded script server_scripts:age_locks.js in 0.002 s
-[03:32:26] [INFO] Loaded script server_scripts:create_age.js in 0.0 s
-[03:32:26] [INFO] Loaded script server_scripts:create_ore_excavation.js in 0.0 s
-[03:32:26] [INFO] Loaded script server_scripts:moon_age.js in 0.001 s
-[03:32:26] [INFO] Loaded script server_scripts:petrochemical_age.js in 0.002 s
-[03:32:26] [INFO] Loaded script server_scripts:tinkers_Age.js in 0.002 s
-[03:32:26] [INFO] Loaded 6/6 KubeJS server scripts in 0.011 s with 0 errors and 0 warnings
-[03:32:26] [INFO] Scripts loaded
-[03:32:26] [INFO] Initializing recipe event...
-[03:32:28] [INFO] [minecraft:fluid] Found 244 tags, added 2 objects, removed 0 objects
-[03:32:29] [INFO] Processing recipes...
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:processing/gold/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'farmersdelight:cutting/azure_door[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:processing/lategame/polonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:processing/lategame/plutonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/blocks_coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanismgenerators:separator/heavy_water[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'create_radar:sequenced_assembly/network_filterer[create:sequenced_assembly]'! Falling back to vanilla: ItemStack 'transitionalItem' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/dusts_coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:processing/osmium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/steam[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/water_vapor[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_oxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:processing/lead/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/ethene_oxygen[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:himmel_vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/ethene[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_hydrogen[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_stairs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:azure_vertical_planks[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/brine[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab_violite_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'create_radar:crafting/plane_radar[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'farmersdelight:cutting/azure_pith[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:processing/uranium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_hexafluoride[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:separator/brine[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:evaporating/brine[mekanism:evaporating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_ethene[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/mossy_bricks/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:processing/tin/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:himmel_vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/hydrofluoric_acid[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/sulfuric_acid[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/tritium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/mossy_bricks/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen_chloride[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/mossy_tiles/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:processing/copper/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_trioxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_slabs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab_from_violite_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:stripped_azure_post[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:29] [WARN] Failed to parse recipe 'mekanism:rotary/chlorine[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:29] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:30] [WARN] Failed to parse recipe 'farmersdelight:cutting/azure_sign[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_dioxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:rotary/oxygen[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:separator/water[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'outer_end:azure_vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:evaporating/lithium[mekanism:evaporating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:rotary/lithium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/deuterium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/planks[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/rods_wooden[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/fusion_fuel[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'outer_end:azure_post[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/dusts_wood[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:processing/iron/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:rotary/sodium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/logs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[03:32:30] [WARN] Failed to parse recipe 'outer_end:violite/mossy_tiles/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:30] [WARN] Failed to parse recipe 'farmersdelight:cutting/azure_stem[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
-[03:32:30] [WARN] Failed to parse recipe 'farmersdelight:cutting/azure_trapdoor[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
-[03:32:30] [WARN] Failed to parse recipe 'create_radar:crafting/identification_transponder[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[03:32:30] [INFO] Found 28963 recipes in 656.5 ms
-[03:32:30] [ERROR] ! petrochemical_age.js#85: Failed to create custom JSON recipe from '{"type":"immersiveengineering:refinery","catalyst":{"item":"immersiveengineering:dust_saltpeter"},"energy":80,"input0":{"amount":30,"tag":"kubejs:petrochemical_diesel_sulfur"},"input1":{"amount":10,"tag":"kubejs:petrochemical_benzol"},"result":{"amount":40,"fluid":"enderio:rocket_fuel"}}': Unknown recipe type: immersiveengineering:refinery
-[03:32:30] [WARN] petrochemical_age.js#85: Tried to call a function on an errored recipe! (Failed to create custom JSON recipe from '{"type":"immersiveengineering:refinery","catalyst":{"item":"immersiveengineering:dust_saltpeter"},"energy":80,"input0":{"amount":30,"tag":"kubejs:petrochemical_diesel_sulfur"},"input1":{"amount":10,"tag":"kubejs:petrochemical_benzol"},"result":{"amount":40,"fluid":"enderio:rocket_fuel"}}')
-[03:32:30] [ERROR] ! petrochemical_age.js#154: Failed to create custom JSON recipe from '{"type":"immersiveengineering:blast_furnace","input":{"tag":"forge:ingots/iron"},"result":{"item":"immersiveengineering:ingot_steel"},"slag":{"tag":"forge:slag"},"time":1200}': Unknown recipe type: immersiveengineering:blast_furnace
-[03:32:30] [WARN] petrochemical_age.js#154: Tried to call a function on an errored recipe! (Failed to create custom JSON recipe from '{"type":"immersiveengineering:blast_furnace","input":{"tag":"forge:ingots/iron"},"result":{"item":"immersiveengineering:ingot_steel"},"slag":{"tag":"forge:slag"},"time":1200}')
-[03:32:30] [ERROR] ! petrochemical_age.js#164: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
-[03:32:30] [WARN] petrochemical_age.js#164: Tried to call a function on an errored recipe! (Failed to create recipe for type 'kubejs:shaped')
-[03:32:30] [ERROR] ! petrochemical_age.js#170: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
-[03:32:30] [WARN] petrochemical_age.js#170: Tried to call a function on an errored recipe! (Failed to create recipe for type 'kubejs:shapeless')
-[03:32:30] [ERROR] ! petrochemical_age.js#181: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
-[03:32:30] [WARN] petrochemical_age.js#181: Tried to call a function on an errored recipe! (Failed to create recipe for type 'kubejs:shaped')
-[03:32:30] [INFO] Posted recipe events in 864.3 ms
-[03:32:30] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/white_lavender[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:white_lavender"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:white_dye"},{"chance":0.05,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:white_lavender'
-[03:32:30] [WARN] Error parsing recipe outer_end:violite/tiles/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_tile_slab","count":3}}: Index 0 out of bounds for length 0
-[03:32:30] [WARN] Error parsing recipe create_confectionery:chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:chocolate_bricks_wall"}],"results":[{"fluid":"create:chocolate","amount":1000}],"heatRequirement":"heated"}: Unknown item 'create_confectionery:chocolate_bricks_wall'
-[03:32:30] [WARN] Error parsing recipe outer_end:azure_vertical_to_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:azure_slab","count":3}}: Index 0 out of bounds for length 0
-[03:32:31] [WARN] Error parsing recipe outer_end:violite/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_slab","count":3}}: Index 0 out of bounds for length 0
-[03:32:31] [WARN] Error parsing recipe outer_end:violite/mossy_tiles/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:mossy_violite_tile_slab","count":3}}: Index 0 out of bounds for length 0
-[03:32:31] [WARN] Error parsing recipe createcasing:crafting/chain_drive/creative_from_zinc[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"create:creative_casing"},{"tag":"forge:nuggets/zinc"},{"tag":"forge:nuggets/zinc"},{"tag":"forge:nuggets/zinc"}],"result":{"item":"createcasing:creative_encased_chain_drive"}}: Unknown item 'create:creative_casing'
-[03:32:31] [WARN] Error parsing recipe outer_end:himmel_vertical_to_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:himmel_slab","count":3}}: Index 0 out of bounds for length 0
-[03:32:31] [WARN] Error parsing recipe create_confectionery:white_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:white_chocolate_bricks_wall"}],"results":[{"fluid":"create_confectionery:white_chocolate","amount":1000}],"heatRequirement":"heated"}: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
-[03:32:31] [WARN] Error parsing recipe outer_end:azure_vertical_to_planks[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:azure_planks","count":3}}: Index 0 out of bounds for length 0
-[03:32:31] [WARN] Error parsing recipe outer_end:violite/mossy_bricks/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:mossy_violite_brick_slab","count":3}}: Index 0 out of bounds for length 0
-[03:32:31] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/tiny_cactus[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:tiny_cactus"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:green_dye"},{"chance":0.1,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:tiny_cactus'
-[03:32:31] [WARN] Error parsing recipe create_confectionery:black_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:black_chocolate_bricks_wall"}],"results":[{"fluid":"create_confectionery:black_chocolate","amount":1000}],"heatRequirement":"heated"}: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
-[03:32:31] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/endbloom[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:endbloom"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:light_gray_dye"}]}: Unknown item 'biomesoplenty:endbloom'
-[03:32:31] [WARN] Error parsing recipe outer_end:violite/bricks/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_brick_slab","count":3}}: Index 0 out of bounds for length 0
-[03:32:31] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/tall_white_lavender[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:tall_white_lavender"}],"processingTime":50,"results":[{"count":3,"item":"minecraft:white_dye"},{"chance":0.25,"count":2,"item":"minecraft:light_blue_dye"},{"chance":0.05,"count":2,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:tall_white_lavender'
-[03:32:31] [WARN] Error parsing recipe create_confectionery:ruby_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:ruby_chocolate_brick_wall"}],"results":[{"fluid":"create_confectionery:ruby_chocolate","amount":1000}],"heatRequirement":"heated"}: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
-[03:32:31] [WARN] Error parsing recipe kubejs:petrochemical_age/vat_rocket_fuel[tfmg:vat_machine_recipe]: {"type":"tfmg:vat_machine_recipe","fluidInputs":[{"fluid":"tfmg:hot_air","amount":1500},{"fluid":"tfmg:kerosene","amount":1000},{"fluid":"tfmg:sulfuric_acid","amount":100}],"fluidOutputs":[{"fluid":"enderio:rocket_fuel","amount":1000}],"processingTime":250,"heatRequirement":"heated","machineType":"tfmg:mixing","allowedVats":["tfmg:steel_vat","tfmg:firebrick_lined_vat"]}: Missing ingredients, expected to find a JsonArray
-[03:32:31] [WARN] Error parsing recipe kubejs:petrochemical_age/logs_to_creosote[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":{"tag":"minecraft:logs_that_burn"},"result":{"fluid":"immersiveengineering:creosote","amount":50},"temperature":2000,"time":100}: Unable to parse fluid as registry minecraft:fluid does not contain ID immersiveengineering:creosote
-[03:32:31] [WARN] Error parsing recipe kubejs:petrochemical_age/creosote_steel[tconstruct:alloy]: {"type":"tconstruct:alloy","inputs":[{"fluid":"tconstruct:molten_iron","amount":810},{"fluid":"immersiveengineering:creosote","amount":450}],"result":{"fluid":"tconstruct:molten_steel","amount":810},"temperature":2500}: Unable to parse fluid as registry minecraft:fluid does not contain ID immersiveengineering:creosote
-[03:32:31] [WARN] Error parsing recipe kubejs:petrochemical_age/ie_cokebrick[create:mixing]: {"type":"create:mixing","results":[{"fluid":"minecraft:3x","amount":1000}],"ingredients":[{"tag":"forge:clay"},{"tag":"forge:clay"},{"tag":"forge:clay"},{"tag":"forge:ingots/brick"},{"tag":"forge:ingots/brick"},{"tag":"forge:ingots/brick"},{"tag":"forge:sandstone"}],"heatRequirement":"heated"}: Invalid empty fluid 'minecraft:3x'
-[03:32:31] [WARN] Error parsing recipe kubejs:petrochemical_age/ie_blastbrick[create:mixing]: {"type":"create:mixing","results":[{"fluid":"minecraft:3x","amount":1000}],"ingredients":[{"tag":"forge:ingots/nether_brick"},{"tag":"forge:ingots/nether_brick"},{"tag":"forge:ingots/nether_brick"},{"tag":"forge:ingots/brick"},{"tag":"forge:ingots/brick"},{"tag":"forge:ingots/brick"},{"item":"minecraft:magma_block"}],"heatRequirement":"heated"}: Invalid empty fluid 'minecraft:3x'
-[03:32:31] [INFO] Added 42 recipes, removed 199 recipes, modified 8 recipes, with 27 failed recipes in 107.3 ms
-[03:32:35] [INFO] Server resource reload complete!
+[01:03:42] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[01:03:42] [INIT] Loaded plugins:
+[01:03:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[01:03:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[01:03:42] [INIT] - net.zhaiji.kubejscurios.kubejs.KubeJSCuriosPlugin
+[01:03:42] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[01:03:42] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[01:03:42] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[01:03:42] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[01:03:42] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
+[01:03:42] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[01:03:42] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[01:03:42] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[01:03:42] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[01:03:42] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[01:03:42] [INIT] - dev.bluephs.dgjs.DGJSPlugin
+[01:03:42] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[01:03:42] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[01:03:42] [INIT] - com.probejs.ProbeJSPlugin
+[01:03:42] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[01:03:42] [INIT] - dev.mayaqq.createestrogen.compat.kubejs.CreateEstrogenKubeJSPlugin
+[01:03:42] [INFO] Loaded script server_scripts:age_locks.js in 0.0 s
+[01:03:42] [INFO] Loaded script server_scripts:commands.js in 0.0 s
+[01:03:42] [INFO] Loaded script server_scripts:create_age.js in 0.001 s
+[01:03:42] [INFO] Loaded script server_scripts:create_ore_excavation.js in 0.0 s
+[01:03:42] [INFO] Loaded script server_scripts:mars_worldgen.js in 0.0 s
+[01:03:42] [INFO] Loaded script server_scripts:moon_age.js in 0.0 s
+[01:03:42] [INFO] Loaded script server_scripts:petrochemical_age.js in 0.0 s
+[01:03:42] [INFO] Loaded script server_scripts:space_age.js in 0.002 s
+[01:03:42] [INFO] Loaded script server_scripts:tinkers_Age.js in 0.0 s
+[01:03:42] [INFO] Loaded script server_scripts:unification.js in 0.0 s
+[01:03:42] [INFO] Loaded 10/10 KubeJS server scripts in 0.007 s with 0 errors and 0 warnings
+[01:03:44] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[01:03:44] [INIT] Loaded plugins:
+[01:03:44] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[01:03:44] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[01:03:44] [INIT] - net.zhaiji.kubejscurios.kubejs.KubeJSCuriosPlugin
+[01:03:44] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[01:03:44] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[01:03:44] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[01:03:44] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[01:03:44] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
+[01:03:44] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[01:03:44] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[01:03:44] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[01:03:44] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[01:03:44] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[01:03:44] [INIT] - dev.bluephs.dgjs.DGJSPlugin
+[01:03:44] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[01:03:44] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[01:03:44] [INIT] - com.probejs.ProbeJSPlugin
+[01:03:44] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[01:03:44] [INIT] - dev.mayaqq.createestrogen.compat.kubejs.CreateEstrogenKubeJSPlugin
+[01:03:44] [INFO] Loaded script server_scripts:age_locks.js in 0.0 s
+[01:03:44] [INFO] Loaded script server_scripts:commands.js in 0.0 s
+[01:03:44] [INFO] Loaded script server_scripts:create_age.js in 0.0 s
+[01:03:44] [INFO] Loaded script server_scripts:create_ore_excavation.js in 0.0 s
+[01:03:44] [INFO] Loaded script server_scripts:mars_worldgen.js in 0.0 s
+[01:03:44] [INFO] Loaded script server_scripts:moon_age.js in 0.0 s
+[01:03:44] [INFO] Loaded script server_scripts:petrochemical_age.js in 0.0 s
+[01:03:44] [INFO] Loaded script server_scripts:space_age.js in 0.0 s
+[01:03:44] [INFO] Loaded script server_scripts:tinkers_Age.js in 0.0 s
+[01:03:44] [INFO] Loaded script server_scripts:unification.js in 0.0 s
+[01:03:44] [INFO] Loaded 10/10 KubeJS server scripts in 0.007 s with 0 errors and 0 warnings
+[01:03:44] [INFO] Scripts loaded
+[01:03:44] [INFO] Initializing recipe event...
+[01:03:44] [INFO] [minecraft:fluid] Found 244 tags, added 2 objects, removed 0 objects
+[01:03:44] [INFO] [minecraft:worldgen/biome] Found 328 tags, added 3 objects, removed 1 objects
+[01:03:44] [INFO] [minecraft:item] Found 3205 tags, added 20 objects, removed 0 objects
+[01:03:45] [INFO] Processing recipes...
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:processing/gold/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'farmersdelight:cutting/azure_door[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:processing/lategame/polonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:processing/lategame/plutonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/blocks_coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanismgenerators:separator/heavy_water[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'create_radar:sequenced_assembly/network_filterer[create:sequenced_assembly]'! Falling back to vanilla: ItemStack 'transitionalItem' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/dusts_coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:processing/osmium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/steam[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/water_vapor[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_oxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:processing/lead/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/ethene_oxygen[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:himmel_vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/ethene[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_hydrogen[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_stairs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:azure_vertical_planks[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/brine[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab_violite_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'create_radar:crafting/plane_radar[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'farmersdelight:cutting/azure_pith[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:processing/uranium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_hexafluoride[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:separator/brine[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:evaporating/brine[mekanism:evaporating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_ethene[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/mossy_bricks/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:processing/tin/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:himmel_vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/hydrofluoric_acid[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/sulfuric_acid[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/tritium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/mossy_bricks/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen_chloride[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/mossy_tiles/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:processing/copper/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_trioxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_slabs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/tiles/vertical_slab_from_violite_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:stripped_azure_post[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/chlorine[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/bricks/vertical_slab_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'farmersdelight:cutting/azure_sign[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_dioxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/oxygen[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:separator/water[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:azure_vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:evaporating/lithium[mekanism:evaporating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/lithium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/deuterium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/planks[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/rods_wooden[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanismgenerators:rotary/fusion_fuel[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:azure_post[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/dusts_wood[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:processing/iron/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:rotary/sodium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/logs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[01:03:45] [WARN] Failed to parse recipe 'outer_end:violite/mossy_tiles/vertical_slab[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [WARN] Failed to parse recipe 'farmersdelight:cutting/azure_stem[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
+[01:03:45] [WARN] Failed to parse recipe 'farmersdelight:cutting/azure_trapdoor[farmersdelight:cutting]'! Falling back to vanilla: Failed to parse custom ingredient ("farmersdelight:tool") from {"type":"farmersdelight:tool","tool":"axe"}: com.google.gson.JsonSyntaxException: Unknown ingredient type: farmersdelight:tool
+[01:03:45] [WARN] Failed to parse recipe 'create_radar:crafting/identification_transponder[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[01:03:45] [INFO] Found 28964 recipes in 376.4 ms
+[01:03:45] [INFO] Posted recipe events in 59.88 ms
+[01:03:45] [WARN] Error parsing recipe outer_end:violite/tiles/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_tile_slab","count":3}}: Index 0 out of bounds for length 0
+[01:03:45] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/white_lavender[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:white_lavender"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:white_dye"},{"chance":0.05,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:white_lavender'
+[01:03:45] [WARN] Error parsing recipe outer_end:violite/mossy_tiles/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:mossy_violite_tile_slab","count":3}}: Index 0 out of bounds for length 0
+[01:03:45] [WARN] Error parsing recipe createcasing:crafting/chain_drive/creative_from_zinc[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"create:creative_casing"},{"tag":"forge:nuggets/zinc"},{"tag":"forge:nuggets/zinc"},{"tag":"forge:nuggets/zinc"}],"result":{"item":"createcasing:creative_encased_chain_drive"}}: Unknown item 'create:creative_casing'
+[01:03:45] [WARN] Error parsing recipe thermal:invar_dust_3[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[[],[],{"tag":"forge:dusts/nickel"}],"result":{"count":3,"item":"thermal:invar_dust"}}: Item array cannot be empty, at least one item must be defined
+[01:03:45] [WARN] Error parsing recipe outer_end:azure_vertical_to_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:azure_slab","count":3}}: Index 0 out of bounds for length 0
+[01:03:45] [WARN] Error parsing recipe create_confectionery:chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:chocolate_bricks_wall"}],"results":[{"fluid":"create:chocolate","amount":1000}],"heatRequirement":"heated"}: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[01:03:45] [WARN] Error parsing recipe outer_end:violite/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_slab","count":3}}: Index 0 out of bounds for length 0
+[01:03:45] [WARN] Error parsing recipe outer_end:violite/mossy_bricks/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:mossy_violite_brick_slab","count":3}}: Index 0 out of bounds for length 0
+[01:03:45] [WARN] Error parsing recipe create_confectionery:white_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:white_chocolate_bricks_wall"}],"results":[{"fluid":"create_confectionery:white_chocolate","amount":1000}],"heatRequirement":"heated"}: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[01:03:45] [WARN] Error parsing recipe outer_end:himmel_vertical_to_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:himmel_slab","count":3}}: Index 0 out of bounds for length 0
+[01:03:45] [WARN] Error parsing recipe create_confectionery:ruby_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:ruby_chocolate_brick_wall"}],"results":[{"fluid":"create_confectionery:ruby_chocolate","amount":1000}],"heatRequirement":"heated"}: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[01:03:45] [WARN] Error parsing recipe outer_end:violite/bricks/slab_from_vertical_slab[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:violite_brick_slab","count":3}}: Index 0 out of bounds for length 0
+[01:03:45] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/tiny_cactus[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:tiny_cactus"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:green_dye"},{"chance":0.1,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:tiny_cactus'
+[01:03:45] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/endbloom[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:endbloom"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:light_gray_dye"}]}: Unknown item 'biomesoplenty:endbloom'
+[01:03:45] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/tall_white_lavender[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:tall_white_lavender"}],"processingTime":50,"results":[{"count":3,"item":"minecraft:white_dye"},{"chance":0.25,"count":2,"item":"minecraft:light_blue_dye"},{"chance":0.05,"count":2,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:tall_white_lavender'
+[01:03:45] [WARN] Error parsing recipe create_confectionery:black_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:black_chocolate_bricks_wall"}],"results":[{"fluid":"create_confectionery:black_chocolate","amount":1000}],"heatRequirement":"heated"}: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[01:03:45] [WARN] Error parsing recipe outer_end:azure_vertical_to_planks[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "," "," "],"key":{},"result":{"item":"outer_end:azure_planks","count":3}}: Index 0 out of bounds for length 0
+[01:03:45] [WARN] Error parsing recipe kubejs:petrochemical_age/vat_rocket_fuel[tfmg:vat_machine_recipe]: {"type":"tfmg:vat_machine_recipe","fluidInputs":[{"fluid":"tfmg:hot_air","amount":1500},{"fluid":"tfmg:kerosene","amount":1000},{"fluid":"tfmg:sulfuric_acid","amount":100}],"fluidOutputs":[{"fluid":"enderio:rocket_fuel","amount":1000}],"processingTime":250,"heatRequirement":"heated","machineType":"tfmg:mixing","allowedVats":["tfmg:steel_vat","tfmg:firebrick_lined_vat"]}: Missing ingredients, expected to find a JsonArray
+[01:03:45] [INFO] Added 62 recipes, removed 60 recipes, modified 20 recipes, with 19 failed recipes in 70.76 ms
+[01:03:47] [INFO] Server resource reload complete!

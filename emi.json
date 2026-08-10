@@ -1,6 +1,169 @@
 {
   "favorites": [],
   "lookup_history": [
+    {
+      "type": "fluid",
+      "id": "tfmg:molten_slag",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "tfmg:furnace_gas",
+      "amount": 0
+    },
+    "item:displaydelight:ctd_creamed_corn",
+    "item:displaydelight:df_stuffed_cantaloupe",
+    {
+      "type": "fluid",
+      "id": "ad_astra:fuel",
+      "amount": 0
+    },
+    "item:ad_astra:oil_bucket",
+    {
+      "type": "fluid",
+      "id": "ad_astra:oil",
+      "amount": 1000
+    },
+    "item:ad_astra:fuel_bucket",
+    {
+      "type": "fluid",
+      "id": "tfmg:kerosene",
+      "amount": 0
+    },
+    "item:ad_astra:tier_1_rocket{BotariumData:{StoredFluids:[{Amount:3000L,Fluid:\"ad_astra:fuel\"}]}}",
+    "item:ad_astra:tier_4_rocket",
+    {
+      "type": "fluid",
+      "id": "enderio:rocket_fuel",
+      "amount": 0
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:fissile_fuel"
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanismgenerators:fusion_fuel"
+    },
+    {
+      "type": "fluid",
+      "id": "industrialforegoing:biofuel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "mekanismgenerators:fusion_fuel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "ad_astra:cryo_fuel",
+      "amount": 0
+    },
+    "#item:forge:dusts/nickel",
+    {
+      "type": "item",
+      "id": "thermal:invar_dust",
+      "amount": 3
+    },
+    "item:thermal:nickel_dust",
+    "item:thermal:nickel_ingot",
+    "item:create:crushed_raw_iron",
+    "item:mekanism:dust_steel",
+    "item:create:crushed_raw_nickel",
+    "item:thermal:nickel_ore",
+    "#item:forge:ingots/nickel",
+    "item:thermal:invar_ingot",
+    "item:tconstruct:scorched_fuel_tank{tank:{Amount:4000,FluidName:\"minecraft:lava\"}}",
+    {
+      "type": "fluid",
+      "id": "tfmg:crude_oil",
+      "amount": 330
+    },
+    "fluid:tfmg:butane",
+    {
+      "type": "fluid",
+      "id": "createaddition:bioethanol",
+      "amount": 125
+    },
+    "item:createaddition:biomass",
+    "item:ad_astra:fuel_refinery",
+    "item:tconstruct:steel_shard",
+    {
+      "type": "fluid",
+      "id": "tfmg:molten_steel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "tfmg:creosote",
+      "amount": 0
+    },
+    "item:tfmg:fireproof_bricks",
+    "item:tfmg:coke_oven",
+    "item:tfmg:fireclay_ball",
+    "item:tfmg:fireclay",
+    "item:tfmg:fireproof_brick",
+    "item:tfmg:coal_coke",
+    {
+      "type": "item",
+      "id": "thermal:coal_coke",
+      "amount": 9
+    },
+    "item:thermal:coal_coke_block",
+    {
+      "type": "fluid",
+      "id": "thermal:creosote",
+      "amount": 0
+    },
+    {
+      "type": "list",
+      "amount": 50,
+      "ingredients": [
+        "fluid:minecraft:lava",
+        "fluid:tconstruct:blazing_blood",
+        "fluid:enderio:rocket_fuel"
+      ]
+    },
+    {
+      "type": "fluid",
+      "id": "minecraft:lava",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "securitycraft:fake_lava",
+      "amount": 0
+    },
+    "item:tfmg:cast_iron_ingot",
+    "#item:forge:ingots/cast_iron",
+    "item:ad_astra_giselle_addon:fuel_loader",
+    {
+      "type": "fluid",
+      "id": "createdieselgenerators:diesel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "tfmg:diesel",
+      "amount": 0
+    },
+    "item:ae2:certus_quartz_crystal",
+    "item:ae2:charged_certus_quartz_crystal",
+    "item:ae2:fluix_crystal",
+    "item:ae2:fluix_dust",
+    "item:advanced_ae:reaction_chamber",
+    "item:ae2:quartz_block",
+    "item:ad_astra:moon_desh_ore",
+    "item:ad_astra:raw_desh",
+    "item:ad_astra:desh_ingot",
+    "item:ad_astra:desh_nugget",
+    "item:ad_astra:desh_block",
+    "item:ad_astra:tier_2_rocket{}",
+    "item:ad_astra:tier_1_rocket{}",
+    "item:ad_astra:tier_2_rocket{BotariumData:{StoredFluids:[{Amount:3000L,Fluid:\"ad_astra:fuel\"}]}}",
+    "item:tfmg:diesel_bucket",
+    "item:tfmg:kerosene_bucket",
     "item:enderio:grains_of_infinity",
     {
       "type": "fluid",

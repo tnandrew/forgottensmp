@@ -17,17 +17,17 @@ ServerEvents.recipes(event => {
     duration: 100,
     fluid: {
       amount: 50,
-      fluid: 'enderio:rocket_fuel'
+      fluid: 'ad_astra:fuel'
     },
     rate: 25,
     temperature: 2500
   }).id('kubejs:petrochemical_age/tconstruct_rocket_fuel')
-
+/* Already in TFMG
   // FIXED: Converted logs to creosote melting into a raw custom recipe structure
   event.custom({
     type: 'tconstruct:melting',
     ingredient: { tag: 'minecraft:logs_that_burn' },
-    result: { fluid: 'immersiveengineering:creosote', amount: 50 },
+    result: { fluid: 'tfmg:creosote', amount: 50 },
     temperature: 2000,
     time: 100
   }).id('kubejs:petrochemical_age/logs_to_creosote')
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
     result: { fluid: 'tconstruct:molten_steel', amount: 810 },
     temperature: 2500
   }).id('kubejs:petrochemical_age/creosote_steel')
-
+*/
   event.remove({ type: 'tconstruct:melting', input: 'tconstruct:steel_shard' })
   event.remove({ type: 'tconstruct:melting', input: 'tconstruct:steel_cluster' })
 
@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
     time: 162
   }).id('tconstruct:smeltery/melting/metal/steel/cluster')
 
-  event.custom({
+  /* event.custom({
     type: 'immersiveengineering:refinery',
     catalyst: {
       item: 'immersiveengineering:dust_saltpeter'
@@ -83,7 +83,27 @@ ServerEvents.recipes(event => {
       fluid: 'enderio:rocket_fuel'
     }
   }).id('kubejs:petrochemical_age/refinery_rocket_fuel')
+  */
 
+  // Added recipe to make rocket fuel again. 
+
+  
+  event.custom({
+    type: 'ad_astra:refining',
+    cookingtime: 1,          // (20 seconds) Time in ticks to process (20 ticks = 1 second)
+    energy: 20,               // Energy consumed per tick (RF/FE)
+    input: {
+        ingredient: {
+          fluid: 'tfmg:kerosene'
+        },
+        millibuckets: 10              // Fluid amount in mB (1000mB = 1 bucket)
+    },
+    result: {
+        fluid: 'ad_astra:fuel',   // The resulting output fluid ID
+        millibuckets: 5               // Fluid amount in mB
+    }
+  }).id('kubejs:petrochemical_age/kerosene_to_fuel')
+  
   // FIXED: Converted TFMG Vat Machine recipe into a raw custom JSON recipe to resolve line 99 crash
   event.custom({
     type: 'tfmg:vat_machine_recipe',
@@ -124,7 +144,7 @@ ServerEvents.recipes(event => {
     Fluid.of('tconstruct:molten_iron', 90),
     '#forge:dusts/coal_coke'
   ])).id('kubejs:petrochemical_age/cbc_molten_cast_iron')
-
+/*
   heated(event.recipes.create.mixing('3x immersiveengineering:cokebrick', [
     '#forge:clay',
     '#forge:clay',
@@ -179,7 +199,7 @@ ServerEvents.recipes(event => {
     R: '#forge:rods/treated_wood',
     C: 'minecraft:crafting_table'
   }).id('kubejs:petrochemical_age/ie_workbench')
-
+*/
   event.shaped('2x tfmg:coke_oven', [
     ' C ',
     'FIF',
@@ -230,36 +250,6 @@ ServerEvents.recipes(event => {
     T: 'tfmg:cast_iron_fluid_tank',
     F: 'tfmg:fireproof_bricks'
   }).id('kubejs:petrochemical_age/tfmg_blast_stove')
-
-  event.custom({
-    type: 'tfmg:industrial_blasting',
-    hotAirUsage: 30,
-    ingredients: [
-      { item: 'minecraft:raw_iron' },
-      { tag: 'tfmg:flux' }
-    ],
-    processingTime: 40,
-    results: [
-      { amount: 288, fluid: 'tfmg:molten_steel' },
-      { amount: 288, fluid: 'tfmg:molten_slag' },
-      { amount: 200, fluid: 'tfmg:furnace_gas' }
-    ]
-  }).id('kubejs:petrochemical_age/tfmg_industrial_blasting_steel_from_raw_iron')
-
-  event.custom({
-    type: 'tfmg:industrial_blasting',
-    hotAirUsage: 20,
-    ingredients: [
-      { item: 'create:crushed_raw_iron' },
-      { tag: 'tfmg:flux' }
-    ],
-    processingTime: 20,
-    results: [
-      { amount: 144, fluid: 'tfmg:molten_steel' },
-      { amount: 144, fluid: 'tfmg:molten_slag' },
-      { amount: 200, fluid: 'tfmg:furnace_gas' }
-    ]
-  }).id('kubejs:petrochemical_age/tfmg_industrial_blasting_steel')
 
   event.custom({
     type: 'tfmg:casting',

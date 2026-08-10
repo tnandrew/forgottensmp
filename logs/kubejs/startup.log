@@ -1,24 +1,24 @@
-[03:31:38] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[03:31:38] [INIT] Loaded plugins:
-[03:31:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[03:31:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[03:31:38] [INIT] - net.zhaiji.kubejscurios.kubejs.KubeJSCuriosPlugin
-[03:31:38] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
-[03:31:38] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[03:31:38] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[03:31:38] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[03:31:38] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
-[03:31:38] [INIT] - net.liopyu.entityjs.EntityJSPlugin
-[03:31:38] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[03:31:38] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[03:31:38] [INIT] - pie.ilikepiefoo.AdditionsPlugin
-[03:31:38] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
-[03:31:38] [INIT] - dev.bluephs.dgjs.DGJSPlugin
-[03:31:38] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[03:31:38] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[03:31:38] [INIT] - com.probejs.ProbeJSPlugin
-[03:31:38] [INIT] - com.almostreliable.ponderjs.KubePlugin
-[03:31:38] [INIT] - dev.mayaqq.createestrogen.compat.kubejs.CreateEstrogenKubeJSPlugin
-[03:31:39] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[03:31:39] [INFO] Loaded script startup_scripts:example.js in 0.111 s
-[03:31:39] [INFO] Loaded 1/1 KubeJS startup scripts in 1.129 s with 0 errors and 0 warnings
+[00:51:33] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[00:51:33] [INIT] Loaded plugins:
+[00:51:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[00:51:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[00:51:33] [INIT] - net.zhaiji.kubejscurios.kubejs.KubeJSCuriosPlugin
+[00:51:33] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[00:51:33] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[00:51:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[00:51:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[00:51:33] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
+[00:51:33] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[00:51:33] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[00:51:33] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[00:51:33] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[00:51:33] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[00:51:33] [INIT] - dev.bluephs.dgjs.DGJSPlugin
+[00:51:33] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[00:51:33] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[00:51:33] [INIT] - com.probejs.ProbeJSPlugin
+[00:51:33] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[00:51:33] [INIT] - dev.mayaqq.createestrogen.compat.kubejs.CreateEstrogenKubeJSPlugin
+[00:51:34] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[00:51:34] [INFO] Loaded script startup_scripts:example.js in 0.092 s
+[00:51:34] [INFO] Loaded 1/1 KubeJS startup scripts in 0.994 s with 0 errors and 0 warnings
