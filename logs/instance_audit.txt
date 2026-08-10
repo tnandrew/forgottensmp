@@ -7,3 +7,4 @@
 2026-08-10T03:25:35Z - It's the little things - itlt-1.20.01-2.2.1.jar was removed
 2026-08-10T03:25:40Z - Launch attempted with Mojang launcher (Minecraft 1.20.1, Forge); JVM args: 
 2026-08-10T07:50:41Z - Launch attempted with Mojang launcher (Minecraft 1.20.1, Forge); JVM args: 
+2026-08-10T11:37:35Z - Launch attempted with Mojang launcher (Minecraft 1.20.1, Forge); JVM args: 

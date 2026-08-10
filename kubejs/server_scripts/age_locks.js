@@ -24,7 +24,6 @@ ServerEvents.recipes(event => {
   // TFMG
   const tfmg = [
     'tfmg:cast_iron_ingot',
-
     'tfmg:coke_oven',
     'tfmg:fireproof_brick'
   ]

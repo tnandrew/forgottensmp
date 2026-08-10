@@ -4,8 +4,18 @@
 
 
 emi.json
+minecraftinstance.json
+oculus.properties
+quark-common.toml
+indigo-renderer.properties
+occlusion.properties
+reflectivity.properties
+
 
 /saves/
 /screenshots/
 /XaeroWaypoints_BACKUP240807/
 /xaero/
+/local/
+/logs/
+
