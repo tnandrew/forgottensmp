@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
     type: 'tconstruct:casting_basin',
     cast: { tag: 'forge:andesite' },
     cast_consumed: true,
-    fluid: { name: 'tconstruct:molten_slimesteel', amount: 30 },
+    fluid: { fluid: 'tconstruct:molten_slimesteel', amount: 30 },
     result: andesiteAlloy,
     cooling_time: 60
   }).id('kubejs:tinkers_age/andesite_alloy_casting')
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
     type: 'tconstruct:casting_table',
     cast: { tag: 'tconstruct:casts/multi_use/ingot' },
     cast_consumed: false,
-    fluid: { name: 'tconstruct:molten_constantan', amount: 90 },
+    fluid: { fluid: 'tconstruct:molten_constantan', amount: 90 },
     result: 'thermal:constantan_ingot',
     cooling_time: 64
   }).id('kubejs:tinkers_age/constantan_ingot_casting')
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
     type: 'tconstruct:casting_basin',
     cast: { tag: 'forge:stripped_logs' },
     cast_consumed: true,
-    fluid: { name: 'tconstruct:molten_constantan', amount: 90 },
+    fluid: { fluid: 'tconstruct:molten_constantan', amount: 90 },
     result: 'create:copper_casing',
     cooling_time: 64
   }).id('kubejs:tinkers_age/copper_casing_casting')

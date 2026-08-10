@@ -2,7 +2,7 @@ ServerEvents.commandRegistry(event => {
     const { commands } = event
 
     event.register(
-        commands.literal('currenttags')
+        commands.literal('currenttags') // type /currenttags to get a list of biome tags for the area you're in
             .executes(ctx => {
                 const player = ctx.source.player
 
