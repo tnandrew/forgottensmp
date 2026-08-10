@@ -252,36 +252,6 @@ ServerEvents.recipes(event => {
   }).id('kubejs:petrochemical_age/tfmg_blast_stove')
 
   event.custom({
-    type: 'tfmg:industrial_blasting',
-    hotAirUsage: 30,
-    ingredients: [
-      { item: 'minecraft:raw_iron' },
-      { tag: 'tfmg:flux' }
-    ],
-    processingTime: 40,
-    results: [
-      { amount: 288, fluid: 'tfmg:molten_steel' },
-      { amount: 288, fluid: 'tfmg:molten_slag' },
-      { amount: 200, fluid: 'tfmg:furnace_gas' }
-    ]
-  }).id('kubejs:petrochemical_age/tfmg_industrial_blasting_steel_from_raw_iron')
-
-  event.custom({
-    type: 'tfmg:industrial_blasting',
-    hotAirUsage: 20,
-    ingredients: [
-      { item: 'create:crushed_raw_iron' },
-      { tag: 'tfmg:flux' }
-    ],
-    processingTime: 20,
-    results: [
-      { amount: 144, fluid: 'tfmg:molten_steel' },
-      { amount: 144, fluid: 'tfmg:molten_slag' },
-      { amount: 200, fluid: 'tfmg:furnace_gas' }
-    ]
-  }).id('kubejs:petrochemical_age/tfmg_industrial_blasting_steel')
-
-  event.custom({
     type: 'tfmg:casting',
     ingredients: [
       { amount: 144, fluid: 'tfmg:molten_steel', nbt: {} }
