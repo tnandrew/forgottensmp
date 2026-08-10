@@ -1,6 +1,17 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:computercraft:monitor_normal",
+    "item:cccbridge:redrouter_block",
+    "item:cccbridge:source_block",
+    "item:cccbridge:target_block",
+    "item:computercraft:computer_normal",
+    "item:computercraft:computer_advanced",
+    "item:computercraft:turtle_normal",
+    "item:computercraft:turtle_normal{RightUpgrade:\"computercraft:wireless_modem_normal\"}",
+    "item:outer_end:azure_trapdoor",
+    "item:minecraft:coal",
+    "item:outer_end:violite_brick_slab",
     {
       "type": "fluid",
       "id": "tfmg:molten_slag",

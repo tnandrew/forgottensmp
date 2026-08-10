@@ -1,4 +1,9 @@
 *.lock
+*.log
+*.tmp
+
+
+emi.json
 
 /saves/
 /screenshots/
