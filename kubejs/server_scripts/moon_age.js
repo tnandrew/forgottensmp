@@ -2,10 +2,10 @@
 Final recipes for the Moon age.
 */
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(e => {
   // Grains of Infinity on Moon bedrock.
-  event.remove({ id: 'enderio:fire_crafting/infinity' })
-  event.custom({
+  e.remove({ id: 'enderio:fire_crafting/infinity' })
+  e.custom({
     type: 'enderio:fire_crafting',
     base_blocks: [
       { block: 'minecraft:bedrock' }

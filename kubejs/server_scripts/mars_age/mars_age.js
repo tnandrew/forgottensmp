@@ -12,4 +12,15 @@ ServerEvents.recipes(e => {
         Q: '#forge:gems/certus_quartz'
     }).id('kubejs:mars_charger')
 
+    e.remove({id: 'mekanism:metallurgic_infuser'})
+    e.shaped('mekanism:metallurgic_infuser', [
+        'IFI',
+        'LOL',
+        'IFI'
+    ], {
+        I: '#forge:ingots/iron',
+        F: 'minecraft:furnace',
+        O: '#forge:ingots/osmium',
+        L: 'ae2:logic_processor'
+    }).id('kubejs:mars/mekanism/mettalurgic_infuser')
 })
