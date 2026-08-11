@@ -23,4 +23,16 @@ ServerEvents.recipes(e => {
         O: '#forge:ingots/osmium',
         L: 'ae2:logic_processor'
     }).id('kubejs:mars/mekanism/mettalurgic_infuser')
+
+    e.remove({id: 'ad_astra:ostrum_engine'})
+    e.shaped('ad_astra:ostrum_engine', [
+        'OOO',
+        'ODO',
+        'CFC'
+    ], {
+        O: '#forge:plates/ostrum',
+        D: 'ad_astra:desh_engine',
+        C: 'mekanism:ultimate_control_circuit',
+        F: 'ad_astra:fan'
+    }).id('kubejs:mars_age/ad_astra/ostrum_engine')
 })
