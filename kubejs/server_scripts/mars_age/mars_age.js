@@ -12,5 +12,4 @@ ServerEvents.recipes(e => {
         Q: '#forge:gems/certus_quartz'
     }).id('kubejs:mars_charger')
 
-
 })

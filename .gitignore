@@ -19,4 +19,5 @@ reflectivity.properties
 /local/
 /logs/
 local/
-
+logs/
+logs/latest.log
