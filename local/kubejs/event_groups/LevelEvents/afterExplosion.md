@@ -23,39 +23,44 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getAffectedEntities |  |  | EntityArrayList | ✘ |
 | getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
+| getAffectedEntities |  |  | EntityArrayList | ✘ |
+| removeAllAffectedBlocks |  |  | void | ✘ |
 | removeAffectedEntity | Entity |  | void | ✘ |
 | removeAllAffectedEntities |  |  | void | ✘ |
 | removeAffectedBlock | BlockContainerJS |  | void | ✘ |
-| removeAllAffectedBlocks |  |  | void | ✘ |
 | removeKnockback |  |  | void | ✘ |
-| getBlock |  |  | BlockContainerJS | ✘ |
 | getPosition |  |  | Vec3 | ✘ |
 | getY |  |  | double | ✘ |
-| getZ |  |  | double | ✘ |
+| getBlock |  |  | BlockContainerJS | ✘ |
 | getX |  |  | double | ✘ |
+| getZ |  |  | double | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getExploder |  |  | LivingEntity | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `List<BlockContainerJS> getAffectedBlocks()`
+```
+Gets a list of all blocks affected by the explosion.
+```
 
 - `EntityArrayList getAffectedEntities()`
 ```
 Gets a list of all entities affected by the explosion.
 ```
 
-- `List<BlockContainerJS> getAffectedBlocks()`
+- `void removeAllAffectedBlocks()`
 ```
-Gets a list of all blocks affected by the explosion.
+Remove all blocks from the list of affected blocks.
 ```
 
 - `void removeAffectedEntity(Entity var0)`
@@ -81,32 +86,16 @@ Remove all entities from the list of affected entities.
 Remove a block from the list of affected blocks.
 ```
 
-- `void removeAllAffectedBlocks()`
-```
-Remove all blocks from the list of affected blocks.
-```
-
 - `void removeKnockback()`
 ```
 Remove all knockback from all affected *players*.
 ```
 
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -116,13 +105,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
@@ -143,6 +125,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

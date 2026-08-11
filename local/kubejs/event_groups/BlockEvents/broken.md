@@ -24,21 +24,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
-| getXp |  |  | int | ✘ |
+| getEntity |  |  | Player | ✘ |
 | setXp | int |  | void | ✘ |
+| getXp |  |  | int | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -48,14 +48,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 The block that was broken.
 ```
 
-- `LivingEntity getEntity()`
+- `Player getEntity()`
 ```
 The player that broke the block.
-```
-
-- `int getXp()`
-```
-The experience dropped by the block. Always `0` on Fabric.
 ```
 
 - `void setXp(int var0)`
@@ -65,6 +60,11 @@ The experience dropped by the block. Always `0` on Fabric.
 
 ```
 Sets the experience dropped by the block. Only works on Forge.
+```
+
+- `int getXp()`
+```
+The experience dropped by the block. Always `0` on Fabric.
 ```
 
 - `void removeGameStage(String var0)`
@@ -94,22 +94,11 @@ Checks if the player has the specified game stage
 Adds the specified game stage to the player
 ```
 
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -119,13 +108,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
@@ -146,6 +128,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

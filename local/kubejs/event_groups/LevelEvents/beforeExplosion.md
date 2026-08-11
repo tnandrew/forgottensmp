@@ -23,30 +23,25 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getSize |  |  | float | ✘ |
 | setSize | float |  | void | ✘ |
-| getBlock |  |  | BlockContainerJS | ✘ |
+| getSize |  |  | float | ✘ |
 | getPosition |  |  | Vec3 | ✘ |
 | getY |  |  | double | ✘ |
-| getZ |  |  | double | ✘ |
+| getBlock |  |  | BlockContainerJS | ✘ |
 | getX |  |  | double | ✘ |
+| getZ |  |  | double | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getExploder |  |  | LivingEntity | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `float getSize()`
-```
-Returns the size of the explosion.
-```
 
 - `void setSize(float var0)`
 
@@ -57,22 +52,16 @@ Returns the size of the explosion.
 Sets the size of the explosion.
 ```
 
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
+- `float getSize()`
 ```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
+Returns the size of the explosion.
 ```
 
-- `Object exit()`
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -82,13 +71,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
@@ -109,6 +91,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

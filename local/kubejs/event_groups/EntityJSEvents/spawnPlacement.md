@@ -19,30 +19,18 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| replace | EntityType<T extends Entity>, SpawnPlacements$Type, Heightmap$Types, SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity> |  | void | ✘ |
 | and | EntityType<T extends Entity>, SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity> |  | void | ✘ |
 | or | EntityType<T extends Entity>, SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity> |  | void | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
+| replace | EntityType<T extends Entity>, SpawnPlacements$Type, Heightmap$Types, SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity> |  | void | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `void replace(EntityType<T extends Entity> entityType, SpawnPlacements$Type placementType, Heightmap$Types heightmap, SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity> predicate)`
-
-  Parameters:
-  - entityType: EntityType<T extends Entity>- The entity type whose spawn placement is being replaced
-  - placementType: SpawnPlacements$Type- The spawn placement type to use
-  - heightmap: Heightmap$Types- The heightmap to use
-  - predicate: SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity>- The spawn predicate for the entity type's spawning
-
-```
-Replaces the given entity type's spawn rules
-```
 
 - `void and(EntityType<T extends Entity> entityType, SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity> predicate)`
 
@@ -64,22 +52,23 @@ ANDs the given spawn predicate with the existing spawn predicates of the given e
 ORs the given spawn predicate with the existing spawn predicate of the given entity type
 ```
 
-- `Object exit(Object var0)`
+- `void replace(EntityType<T extends Entity> entityType, SpawnPlacements$Type placementType, Heightmap$Types heightmap, SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity> predicate)`
 
   Parameters:
-  - var0: Object
+  - entityType: EntityType<T extends Entity>- The entity type whose spawn placement is being replaced
+  - placementType: SpawnPlacements$Type- The spawn placement type to use
+  - heightmap: Heightmap$Types- The heightmap to use
+  - predicate: SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity>- The spawn predicate for the entity type's spawning
 
 ```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
+Replaces the given entity type's spawn rules
 ```
 
-- `Object exit()`
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -89,13 +78,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
@@ -116,6 +98,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

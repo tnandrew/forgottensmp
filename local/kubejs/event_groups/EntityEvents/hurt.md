@@ -24,17 +24,17 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getSource |  |  | DamageSource | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
+| getEntity |  |  | Entity | ✘ |
 | getDamage |  |  | float | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -44,7 +44,7 @@ Note: Even if no fields are listed above, some methods are still available as fi
 The damage source.
 ```
 
-- `LivingEntity getEntity()`
+- `Entity getEntity()`
 ```
 The entity that was hurt.
 ```
@@ -54,22 +54,11 @@ The entity that was hurt.
 The amount of damage.
 ```
 
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -79,13 +68,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
@@ -106,6 +88,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

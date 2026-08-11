@@ -33,54 +33,43 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| remove | RecipeFilter |  | void | ✘ |
 | stage | RecipeFilter, String |  | void | ✘ |
 | custom | JsonObject |  | RecipeJS | ✘ |
-| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
-| printExamples | String |  | void | ✘ |
-| getRecipes |  |  | Map<String, Object> | ✘ |
-| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
 | printTypes |  |  | void | ✘ |
-| setItemErrors | boolean |  | void | ✘ |
-| countRecipes | RecipeFilter |  | int | ✘ |
-| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
+| remove | RecipeFilter |  | void | ✘ |
+| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
 | replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
+| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
+| getRecipes |  |  | Map<String, Object> | ✘ |
+| customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
 | containsRecipe | RecipeFilter |  | boolean | ✘ |
 | takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
-| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
-| customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
-| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
-| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
-| printAllTypes |  |  | void | ✘ |
-| runInParallel | Callable<T> |  | T | ✔ |
 | runInParallel | Runnable |  | void | ✔ |
+| runInParallel | Callable<T> |  | T | ✔ |
 | getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
+| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
+| countRecipes | RecipeFilter |  | int | ✘ |
+| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
+| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
+| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
+| printExamples | String |  | void | ✘ |
+| printAllTypes |  |  | void | ✘ |
+| setItemErrors | boolean |  | void | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 - `Object success(Object var0)`
@@ -90,13 +79,6 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
@@ -117,6 +99,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 
