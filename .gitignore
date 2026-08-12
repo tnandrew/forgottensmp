@@ -10,6 +10,8 @@ quark-common.toml
 indigo-renderer.properties
 occlusion.properties
 reflectivity.properties
+options.txt
+
 
 
 /saves/
@@ -18,9 +20,13 @@ reflectivity.properties
 /xaero/
 /local/
 /logs/
-local/
-logs/
 logs/latest.log
 /modernfix/
-modernfix/
-options.txt
+/immersive_paintings_cache/
+/essential/
+/easy_npc/
+config/worldedit/worldedit.properties
+config/xaerominimap_entities.json
+usercache.json
+config/voicechat/username-cache.json
+servers.dat_old
