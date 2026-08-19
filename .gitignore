@@ -13,7 +13,7 @@ reflectivity.properties
 options.txt
 
 
-
+/crash-reports/
 /saves/
 /screenshots/
 /XaeroWaypoints_BACKUP240807/
@@ -30,3 +30,6 @@ config/xaerominimap_entities.json
 usercache.json
 config/voicechat/username-cache.json
 servers.dat_old
+config/spark/activity.json
+fancymenu_data/last_world.fmdata
+.qmenu_opened.marker

@@ -30,6 +30,11 @@ ServerEvents.recipes(e => {
     e.smelting('megacells:sky_steel_ingot','ad_astra:mercury_iron_ore')
     e.blasting('megacells:sky_steel_ingot','ad_astra:mercury_iron_ore')
 
+    e.remove({id: 'ad_astra:smelting/iron_ingot_from_smelting_glacio_iron_ore'})
+    e.remove({id: 'ad_astra:blasting/iron_ingot_from_blasting_glacio_iron_ore'})
+    e.smelting('kubejs:cold_iron_ingot','ad_astra:glacio_iron_ore')
+    e.blasting('kubejs:cold_iron_ingot','ad_astra:glacio_iron_ore')
+
     e.remove({id: 'industrialforegoing:machine_frame_pity'})
     e.shaped('industrialforegoing:machine_frame_pity', [
         'LSL',
@@ -53,6 +58,18 @@ ServerEvents.recipes(e => {
         P: 'industrialforegoing:machine_frame_pity',
         F: 'minecraft:furnace'
     }).id('kubejs:mercury_age/latex_processing_unit')
+
+    e.shaped('kubejs:dimensional_rift_transporter', [
+        'CET',
+        'CST',
+        'CQT'
+    ], {
+        C: 'kubejs:cold_iron_ingot',
+        E: 'minecraft:end_crystal',
+        T: 'megacells:sky_steel_ingot',
+        S: 'industrialforegoing:machine_frame_supreme',
+        Q: 'mekanism:qio_drive_array'
+    }).id('kubejs:mercury_age/dimensional_rift_transporter')
 
 })
 

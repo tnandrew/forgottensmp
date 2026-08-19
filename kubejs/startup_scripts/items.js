@@ -4,4 +4,11 @@ StartupEvents.registry('item', event => {
         .texture('kubejs:item/cold_iron_ingot')
         .tag('forge:ingots')
         .tag('forge:ingots/cold_iron')
+
+    event.create('dimensional_rift_transporter')
+        .displayName('Dimensional Rift Transporter')
+        .texture('kubejs:item/dimensional_rift_transporter')
+        .rarity('epic')
+        .maxStackSize(1)
+
 })
