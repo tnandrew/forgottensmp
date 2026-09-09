@@ -33,3 +33,4 @@ servers.dat_old
 config/spark/activity.json
 fancymenu_data/last_world.fmdata
 .qmenu_opened.marker
+.curseclient
