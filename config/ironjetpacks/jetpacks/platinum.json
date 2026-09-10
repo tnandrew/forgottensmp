@@ -1,11 +1,11 @@
 {
-  "name": "platinum",
+  "name": "osmium",
   "disable": false,
   "tier": 4,
   "color": "a6e9ff",
   "armorPoints": 4,
   "enchantability": 12,
-  "craftingMaterial": "tag:forge:ingots/platinum",
+  "craftingMaterial": "tag:forge:ingots/osmium",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,

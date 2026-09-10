@@ -1,1 +1,2 @@
 2026-09-09T05:01:58Z - projectId:666198 - fileId:6542592 was added
+2026-09-10T05:27:17Z - Launch attempted with Mojang launcher (Minecraft 1.20.1, Forge); JVM args: 
